@@ -20,6 +20,6 @@ For example, if the top RB available now is projected to get 150 points, but the
 
 Finally, DAsHa generates graphs comparing the players at the two positions with the highest point projections to the next best option available at that position in the current round. This again is so that you can make an informed decision based on the variance / distribution of point projections in addition to the raw point totals. For example, the tails on either side show upside / downside potential. Depending on your draft position, you may be willing to accept a player with a lower median projection but higher upside as opposed to locking in a player with a higher median point projection, but very low variance.
 
-An example of the DAsHA's menu output is:
+An example of DAsHA's menu output is:
 
 ![alt text](https://github.com/pjconnell/2020_Fantasy_Football/blob/master/Menu_demo.PNG)
