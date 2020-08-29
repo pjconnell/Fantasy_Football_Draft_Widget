@@ -3,7 +3,10 @@ This contains my code for constructing a Fantasy Football draft assistance algor
 
 All the coding is done in Jupyter notebooks, and the data is pulled from public sources and is included as .csv or .xlsx files in the repository.
 
-The first notebook, "2020 Fantasy Football DAsHA data prep," cleans and merges the fantasy football projections (which were pulled 8/21/2020) and generates the KDE for each player.
+The first notebook, "2020 Fantasy Football DAsHA data prep," cleans and merges the fantasy football projections (which were pulled 8/21/2020) and generates the KDE for each player. KDEs center a normal Gaussian distribution over each input point, then sum all of those functions to generate a non-parametric probability density function; here is an example from the data:
+
+![alt text](https://github.com/pjconnell/2020_Fantasy_Football/blob/KDE_demo.jpg?raw=true)
+
 
 The second notebook, "2020 Fantasy Football DAsHA user interface," provides a user-interface that you can use during a fantasy footbal draft to optomize your draft choices.
 
